@@ -28,220 +28,201 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            this.SuspendLayout();
+            button1 = new Button();
+            label1 = new Label();
+            button2 = new Button();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            numericUpDown1 = new NumericUpDown();
+            numericUpDown2 = new NumericUpDown();
+            label5 = new Label();
+            label6 = new Label();
+            button3 = new Button();
+            label7 = new Label();
+            numericUpDown3 = new NumericUpDown();
+            label8 = new Label();
+            label9 = new Label();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown3).BeginInit();
+            SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(138, 155);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 36);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Get number";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.Location = new Point(473, 68);
+            button1.Name = "button1";
+            button1.Size = new Size(139, 48);
+            button1.TabIndex = 0;
+            button1.Text = "Get number";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(94, 110);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(272, 15);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Press the button to get your number for giveaway!";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Location = new Point(372, 27);
+            label1.Name = "label1";
+            label1.Size = new Size(340, 20);
+            label1.TabIndex = 1;
+            label1.Text = "Press the button to get your number for giveaway!";
+            label1.Click += label1_Click;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(138, 306);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(122, 37);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Start";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            button2.Location = new Point(473, 169);
+            button2.Name = "button2";
+            button2.Size = new Size(139, 49);
+            button2.TabIndex = 2;
+            button2.Text = "Start";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(94, 252);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(288, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Press the button to start the giveaway for one winner:";
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Location = new Point(363, 127);
+            label2.Name = "label2";
+            label2.Size = new Size(360, 20);
+            label2.TabIndex = 3;
+            label2.Text = "Press the button to start the giveaway for one winner:";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(490, 110);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 15);
-            this.label3.TabIndex = 4;
+            label3.AutoSize = true;
+            label3.Location = new Point(24, 304);
+            label3.Name = "label3";
+            label3.Size = new Size(0, 20);
+            label3.TabIndex = 4;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(490, 176);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 15);
-            this.label4.TabIndex = 5;
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            label4.AutoSize = true;
+            label4.Location = new Point(24, 340);
+            label4.Name = "label4";
+            label4.Size = new Size(0, 20);
+            label4.TabIndex = 5;
+            label4.Click += label4_Click;
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(757, 136);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            1000000,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(131, 23);
-            this.numericUpDown1.TabIndex = 6;
+            numericUpDown1.Location = new Point(865, 181);
+            numericUpDown1.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new Size(150, 27);
+            numericUpDown1.TabIndex = 6;
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(757, 188);
-            this.numericUpDown2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.numericUpDown2.Maximum = new decimal(new int[] {
-            1000000,
-            0,
-            0,
-            0});
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(131, 23);
-            this.numericUpDown2.TabIndex = 7;
+            numericUpDown2.Location = new Point(865, 251);
+            numericUpDown2.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
+            numericUpDown2.Name = "numericUpDown2";
+            numericUpDown2.Size = new Size(150, 27);
+            numericUpDown2.TabIndex = 7;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(698, 144);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 15);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "From:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
+            label5.Location = new Point(798, 192);
+            label5.Name = "label5";
+            label5.Size = new Size(46, 20);
+            label5.TabIndex = 8;
+            label5.Text = "From:";
+            label5.Click += label5_Click;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(714, 196);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(22, 15);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "To:";
+            label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
+            label6.Location = new Point(816, 261);
+            label6.Name = "label6";
+            label6.Size = new Size(28, 20);
+            label6.TabIndex = 9;
+            label6.Text = "To:";
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(138, 453);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(122, 37);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Start";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            button3.Location = new Point(372, 275);
+            button3.Margin = new Padding(3, 4, 3, 4);
+            button3.Name = "button3";
+            button3.Size = new Size(139, 49);
+            button3.TabIndex = 10;
+            button3.Text = "Start";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(87, 391);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(279, 15);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Press the button to start the giveaway for x winners:";
+            label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
+            label7.Location = new Point(364, 253);
+            label7.Name = "label7";
+            label7.Size = new Size(348, 20);
+            label7.TabIndex = 11;
+            label7.Text = "Press the button to start the giveaway for x winners:";
             // 
             // numericUpDown3
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(201, 496);
-            this.numericUpDown3.Maximum = new decimal(new int[] {
-            15,
-            0,
-            0,
-            0});
-            this.numericUpDown3.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(49, 23);
-            this.numericUpDown3.TabIndex = 12;
-            this.numericUpDown3.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            numericUpDown3.Location = new Point(644, 295);
+            numericUpDown3.Margin = new Padding(3, 4, 3, 4);
+            numericUpDown3.Maximum = new decimal(new int[] { 15, 0, 0, 0 });
+            numericUpDown3.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numericUpDown3.Name = "numericUpDown3";
+            numericUpDown3.Size = new Size(56, 27);
+            numericUpDown3.TabIndex = 12;
+            numericUpDown3.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(154, 422);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(85, 15);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "(maximum 15)";
+            label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
+            label8.Location = new Point(607, 271);
+            label8.Name = "label8";
+            label8.Size = new Size(105, 20);
+            label8.TabIndex = 13;
+            label8.Text = "(maximum 15)";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(164, 498);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(13, 15);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "x";
+            label9.AutoSize = true;
+            label9.BackColor = Color.Transparent;
+            label9.Location = new Point(622, 302);
+            label9.Name = "label9";
+            label9.Size = new Size(16, 20);
+            label9.TabIndex = 14;
+            label9.Text = "x";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gainsboro;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(929, 642);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.numericUpDown3);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.numericUpDown2);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "Form1";
-            this.Text = "Frambuazlı Cheesecakeeeee";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Gainsboro;
+            ClientSize = new Size(1134, 379);
+            Controls.Add(label9);
+            Controls.Add(label8);
+            Controls.Add(numericUpDown3);
+            Controls.Add(label7);
+            Controls.Add(button3);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(numericUpDown2);
+            Controls.Add(numericUpDown1);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(button2);
+            Controls.Add(label1);
+            Controls.Add(button1);
+            Name = "Form1";
+            Text = "Çekiliş Uygulaması";
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown3).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
