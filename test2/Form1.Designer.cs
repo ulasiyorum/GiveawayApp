@@ -43,6 +43,7 @@
             numericUpDown3 = new NumericUpDown();
             label8 = new Label();
             label9 = new Label();
+            button4 = new Button();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown3).BeginInit();
@@ -108,25 +109,25 @@
             // 
             // numericUpDown1
             // 
-            numericUpDown1.Location = new Point(865, 181);
+            numericUpDown1.Location = new Point(78, 114);
             numericUpDown1.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
             numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(150, 27);
+            numericUpDown1.Size = new Size(139, 27);
             numericUpDown1.TabIndex = 6;
             // 
             // numericUpDown2
             // 
-            numericUpDown2.Location = new Point(865, 251);
+            numericUpDown2.Location = new Point(78, 147);
             numericUpDown2.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
             numericUpDown2.Name = "numericUpDown2";
-            numericUpDown2.Size = new Size(150, 27);
+            numericUpDown2.Size = new Size(139, 27);
             numericUpDown2.TabIndex = 7;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
-            label5.Location = new Point(798, 192);
+            label5.Location = new Point(11, 125);
             label5.Name = "label5";
             label5.Size = new Size(46, 20);
             label5.TabIndex = 8;
@@ -137,7 +138,7 @@
             // 
             label6.AutoSize = true;
             label6.BackColor = Color.Transparent;
-            label6.Location = new Point(816, 261);
+            label6.Location = new Point(29, 157);
             label6.Name = "label6";
             label6.Size = new Size(28, 20);
             label6.TabIndex = 9;
@@ -195,12 +196,23 @@
             label9.TabIndex = 14;
             label9.Text = "x";
             // 
+            // button4
+            // 
+            button4.Location = new Point(78, 191);
+            button4.Name = "button4";
+            button4.Size = new Size(139, 48);
+            button4.TabIndex = 15;
+            button4.Text = "Auto";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Gainsboro;
             ClientSize = new Size(1134, 379);
+            Controls.Add(button4);
             Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(numericUpDown3);
@@ -242,5 +254,6 @@
         private NumericUpDown numericUpDown3;
         private Label label8;
         private Label label9;
+        private Button button4;
     }
 }

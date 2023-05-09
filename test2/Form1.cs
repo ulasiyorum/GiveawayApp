@@ -101,6 +101,10 @@ namespace test2
             return false;
         }
 
-
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Random random = new Random();
+            numericUpDown2.Value = random.Next(0,100);
+        }
     }
 }
