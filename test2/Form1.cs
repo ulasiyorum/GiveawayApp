@@ -14,6 +14,13 @@ namespace test2
         private void button1_Click(object sender, EventArgs e)
         {
             label3.Text = cekilisGiris();
+            label2.Visible = true;
+            button2.Visible = true;
+            label7.Visible = true;
+            label8.Visible = true;
+            button3.Visible = true;
+            label9.Visible = true;
+            numericUpDown3.Visible = true;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -104,7 +111,7 @@ namespace test2
         private void button4_Click(object sender, EventArgs e)
         {
             Random random = new Random();
-            numericUpDown2.Value = random.Next(0,100);
+            numericUpDown2.Value = random.Next(0, 100);
         }
     }
 }

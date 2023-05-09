@@ -78,6 +78,7 @@
             button2.TabIndex = 2;
             button2.Text = "Start";
             button2.UseVisualStyleBackColor = true;
+            button2.Visible = false;
             button2.Click += button2_Click;
             // 
             // label2
@@ -89,11 +90,12 @@
             label2.Size = new Size(360, 20);
             label2.TabIndex = 3;
             label2.Text = "Press the button to start the giveaway for one winner:";
+            label2.Visible = false;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(24, 304);
+            label3.Location = new Point(863, 32);
             label3.Name = "label3";
             label3.Size = new Size(0, 20);
             label3.TabIndex = 4;
@@ -101,7 +103,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(24, 340);
+            label4.Location = new Point(863, 68);
             label4.Name = "label4";
             label4.Size = new Size(0, 20);
             label4.TabIndex = 5;
@@ -153,6 +155,7 @@
             button3.TabIndex = 10;
             button3.Text = "Start";
             button3.UseVisualStyleBackColor = true;
+            button3.Visible = false;
             button3.Click += button3_Click;
             // 
             // label7
@@ -164,6 +167,7 @@
             label7.Size = new Size(348, 20);
             label7.TabIndex = 11;
             label7.Text = "Press the button to start the giveaway for x winners:";
+            label7.Visible = false;
             // 
             // numericUpDown3
             // 
@@ -175,6 +179,7 @@
             numericUpDown3.Size = new Size(56, 27);
             numericUpDown3.TabIndex = 12;
             numericUpDown3.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            numericUpDown3.Visible = false;
             // 
             // label8
             // 
@@ -185,6 +190,7 @@
             label8.Size = new Size(105, 20);
             label8.TabIndex = 13;
             label8.Text = "(maximum 15)";
+            label8.Visible = false;
             // 
             // label9
             // 
@@ -195,6 +201,7 @@
             label9.Size = new Size(16, 20);
             label9.TabIndex = 14;
             label9.Text = "x";
+            label9.Visible = false;
             // 
             // button4
             // 
